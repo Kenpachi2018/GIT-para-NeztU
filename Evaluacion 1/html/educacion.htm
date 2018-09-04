@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable:no">
+		<title>Hoja de Vida</title>
+	</head>
+	<body>
+		<header>
+	    	<svg>
+	    		<image xlink:href="../img/icon.svg"  height="100px" width="100px" x="10px" y="10px"></image>
+    		</svg>
+		</header> 
+		<h1>Hoja de Vida</h1>
+		<section title="datosPersonales">
+			<h2>Nombres: </h2><h3>Raul Fernando</h3>
+			<h2>Apellidos: </h2><h3>Canavessi Melgarejo</h3>
+			<h2>Fecha de Nacimiento: </h2><h3>4 de Octubre de 1979</h3>
+			<h2>Lugar de Nacimiento: </h2><h3>Montevideo (Uruguay)</h3>
+		</section>
+
+	    <nav>
+			<a href="../index.html">Inicio</a>
+			<a href="experiencia.htm">Experiencia</a>
+	    </nav>
+
+	    <section title="educacion">
+	    	<h2> Educacion.</h2>
+	    	<table border="1", cellpadding="10", cellspacing="0">
+	    		<tr>
+	    			<th>Año</th>
+	    			<th>Institución</th>
+	    			<th>Lugar</th>
+	    			<th>¿Culminó?</th>
+	    		</tr>
+	    		<tr>
+	    			<td>1234</td>
+	    			<td>Privada 01</td>
+	    			<td>Lugar 01</td>
+	    			<td>SI</td>
+	    		</tr>
+	    		<tr>
+	    			<td>1245</td>
+	    			<td>Privada 02</td>
+	    			<td>Lugar 02</td>
+	    			<td>SI</td>
+	    		</tr>
+	    		<tr>
+	    			<td>1256</td>
+	    			<td>Privada 03</td>
+	    			<td>Lugar 03</td>
+	    			<td>SI</td>
+	    		</tr>
+	    	</table>
+	    </section>
+	    <section title="formularioEstudios">
+	    	<h3><em>Agregar Estudios</em></h3>
+	    	<form action="">
+				<p>
+					<label for="anio">Fecha: </label>
+					<input type="date" name="anio" autofocus required>
+				</p>
+				<p>
+					<label for="institucion">Institucion: </label>
+					<br>
+					<input type="text" name="institucion" required>
+				</p>
+				<p>
+					<label for="lugar">Lugar: </label>
+					<br>
+					<textarea name="lugar" id="" cols="30" rows="3"></textarea>
+				</p>
+				<p>
+					<input type="submit" value="enviar">
+				</p>
+			</form>	
+	    </section>
+
+	    <footer>
+			<dl>
+				<dt><strong>E-mail</strong></dt>
+				<dd><em><a href="mailto:raulfer_79@yahoo.com?subject=feedback">raulfer_79@yahoo.com</a></em></dd>
+				<dt><strong>teléfono</strong></dt>
+				<dd><em>1234-5678</em></dd>
+				<dt><strong>Redes Sociales</strong></dt>
+				<dd><em><a href="https://www.facebook.com/raulfer2011" target="blank">Facebook</a></em></dd>
+			</dl>
+	    </footer>
+	</body>
+</html>
