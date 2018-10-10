@@ -1,0 +1,59 @@
+
+
+.dark-primary-color    { background: #0D208B; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #00BCD4; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+div
+{
+	/*border: 1px solid black;*/
+	padding: 2px;
+}
+
+body
+{ 
+	background-image: url(../img/Fondo.jpg);
+	background-size: 100%; 
+}
+
+header, #principal
+{
+	background-color: rgba(10,16,116,0.40);
+	/*#0A1074*/
+}
+
+a
+{
+	color: #FFFFFF;
+	font-style: oblique;
+}
+
+.input-group {
+  text-align: center;
+  position: relative;
+}
+
+.input-group-label {
+  background-color: #1779ba;
+  border-color: #1779ba;
+}
+
+.input-group-field {
+  border-color: #1779ba;
+  overflow: hidden;
+}
+
+.step {
+  color: white;
+  width: 1rem;
+}
+
+.icono
+{
+	color: white;
+	font-size: 35px;
+}

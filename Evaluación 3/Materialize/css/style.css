@@ -1,0 +1,94 @@
+
+
+p, h1, h2,h3, h4, h5, h6, span
+{
+	padding: 10px;
+}
+
+body
+{
+	background-image: url(../img/Principal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contenido
+{
+	background-color: #c8e6c9 ; /*materialize color green lighten-4*/
+}
+
+.menuBtn
+{
+	padding: 0 1rem;
+	font-size: 10px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.marSup
+{
+	margin-top: 15px;
+}
+
+.icono
+{
+	max-height: 100px;
+	max-width: 100px;
+}
+
+.centrado
+{
+	/*margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;*/
+    margin: 2.5px auto 15px auto;
+    display: block;
+}
+
+#socialIcon
+{
+	padding: 0px;
+}
+
+#socialIcon ul
+{
+	border: none;
+	margin-left: 5px;
+}
+
+.esq
+{
+	border-radius: 5px
+}
+
+.enterBlog
+{
+	max-width: 50%; 
+	float: left; 
+	/*margin-right: 10px; 
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 10px;*/
+	margin: 10px;
+}
+
+.divPerfil
+{
+	margin-top: 5px;
+	margin-right: 25px;
+}
+
+.imgPerfil
+{
+	max-width: 80%; margin: 10px 10%;
+}
+
+@media (max-width: 600px)
+{
+	#lema h6
+	{
+		text-align: center;
+	}
+}

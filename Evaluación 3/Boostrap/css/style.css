@@ -1,0 +1,107 @@
+
+
+
+.dark-primary-color    { background: #0097A7; }
+.default-primary-color { background: #00BCD4; }
+.light-primary-color   { background: #B2EBF2; }
+.accent-color          { background: #536DFE; }
+
+
+header>div>div>img
+{
+	max-height: 100px;
+	margin: 5px;
+}
+
+.img-social
+{
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+#navBtns
+{
+	border-radius: 0px 0px 10px 10px;
+}
+
+#navBtns div
+{
+	margin: 5px auto;
+}
+
+/*#navBtns div button
+{
+	height: 35px;
+}*/
+
+#principal
+{
+	margin-top: 10px;
+}
+
+.img-ico
+{
+	height: 32px;
+	width: 32px;
+}
+
+p
+{
+	text-indent: 20px;
+}
+
+#opSerch
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ 
+ #icoSerch
+{
+	position: absolute;
+	margin: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.img-icoFoot
+{
+	height: 20px;
+	width: 20px;
+}
+
+.form-control {
+  padding-left: 35px!important;
+}
+
+footer
+{
+	color: #ffffff;
+}
+
+footer ul 
+{
+	list-style:none;
+}
+
+footer ul a
+{
+	text-decoration: none;
+	color: yellow;
+}
+
+@media (max-width: 992px)
+{
+	#post
+	{ 
+		flex-flow: column wrap; 
+		margin-bottom: 35px;
+		border-bottom: 2px solid blue;
+	}
+
+	.logName{ text-align: center; }
+
+	.contenido{ order: 2; }
+
+	.imagen{ order: 1; }
+}
