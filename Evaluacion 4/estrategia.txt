@@ -1,0 +1,73 @@
+
+Obtener pantalla con una funcion y almacenarla en una variable del tipo 
+	var pantalla = document.getelementbyid('pantalla');
+de igual manera para todos los otros botones de la pantalla
+	var botonUno = document.getelementbyid('uno');
+
+hacer cuand hagan click en un boton que se muestre en la pantalla 
+con una funcion de tipo
+	botonUno.onclick = function(event){
+		pantalla = loque ya esta en la pantalla + btnuno (concatenar valores)
+		pantalla.textcontent = pantalla.textcontent + pantalla
+	}
+	hacer un if por si lo que esta en pantalla es cero
+y asi para todos los numeros
+
+luego que cuando se oprima cualquier operacion se guarden 3 variables el primer 
+numero en pantalla el tipo de operacion y el segundo numero en pantalla 
+
+segunad forma
+declarar variable para la pantalla
+	var pantalla = document.getelementbyid('pantalla');
+declarar variable para todo el teclado y usar el 
+	var teclado = document.getelementbyid('teclado');
+usar la funcion LISTENER
+	teclado.addEventlistener('click',lugarClick)
+donde click es el evento y lugarClick es la funcion que deve realizar
+	function lugarClick(event){
+	var target = even.target;   esto es el elemento donde estas haciendo click
+	
+	if (type){
+	console.log(dataset)
+	aqui una condicion si es numero que lo imprima en pantalla usando la forma
+	 de obtener el valor de lo que se esta haciendo click con TYPEOFF 
+	}
+	}
+
+
+/*
+Efecto de las teclas al precionarlas
+
+function btnEfecto(){
+	document.getElementsByClassName('tecla')[2].style.padding="1.5px";
+}
+
+function btnEfecto3(){
+	document.getElementsByClassName('tecla')[2].style.padding="0px";
+}
+
+document.getElementsByClassName('tecla')[2].onmousedown=btnEfecto;
+document.getElementsByClassName('tecla')[2].onmouseup=btnEfecto3;
+*/
+
+
+**********************************************************************************************
+**		Charla con tutor	                                                                **
+**																							**
+**		Raul (Estudiante)																	**
+**		lo que intuyo es que por ejemplo al presionar una tecla se llama a un metodo del    **
+**		objeto CALCULADORA que da una respuesta que se imprime en pantalla o algo asi       **
+**																							**
+**		Enrique Pallares (Tutor)															**
+**		Claro.																				**
+**		Ahí es donde entra en función el método init().										**
+**		Tú vas a crear todas las funciones que necesites y esas funciones,					** 
+**		las invocarás dentro de un método llamado init()									**
+**																							**
+**		Luego, al final fuera del objeto invocas ese método init							**
+**																							**
+**		Que será el que pondrá a funcionar todos los demás métodos							**
+**																							**
+**********************************************************************************************
+
+
